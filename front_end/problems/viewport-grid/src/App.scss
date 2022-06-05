@@ -1,0 +1,49 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+
+.main {
+  border: solid 1px black;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100vw;
+  align-items: stretch;
+
+  .sideBar{
+    margin: 5px;
+    h2 {
+      margin-bottom: 1px;
+    }
+    input {
+      width: 100px;
+      text-align: center;
+      font-weight: 600;
+    }
+  }
+
+  .table {
+    text-align: center;
+    display: grid;
+    align-items: stretch;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    
+    .myDiv{
+      display: flex;
+      align-items: center;
+      border: 1px solid black;
+      background: rgb(251,248,204);
+      background: linear-gradient(0deg, rgba(251,248,204,1) 35%, rgba(185,251,192,1) 78%);
+      border-radius: 5px;
+      justify-content: center;
+    }
+    
+  }
+  }
+
+  
+
+
